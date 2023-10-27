@@ -9,12 +9,14 @@ h1 {
   text-align: center;
 }
 
+h2,
 h4,
 h5,
 p {
   font-family: "Poppins", sans-serif;
 }
 
+h2,
 h4 {
   text-align: center;
 }
@@ -33,4 +35,13 @@ p {
 }
 .hero {
   background-color: rgb(183, 255, 255);
+}
+
+.contact {
+  border: 1px solid red;
+  border-radius: 4px;
+  background: red;
+  padding: 10px;
+  color: white;
+  text-decoration: none;
 }
