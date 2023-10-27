@@ -4,12 +4,17 @@ h1 {
   font-size: 80px;
   text-align: center;
 }
+h2 {
+  font-family: "Playfair Display", serif;
+  font-weight: 500;
+  font-size: 60px;
+  text-align: center;
+}
 
 .greetings {
   text-align: center;
 }
 
-h2,
 h4,
 h5,
 p {
@@ -30,7 +35,7 @@ h5 {
 p {
   font-size: 18px;
   text-align: justify;
-  margin-top: 30px;
+  margin-top: 15px;
   padding-top: 20px;
 }
 .hero {
@@ -44,4 +49,10 @@ p {
   padding: 10px;
   color: white;
   text-decoration: none;
+  margin-left: 350px;
+}
+
+.contact:hover {
+  background: white;
+  color: red;
 }
